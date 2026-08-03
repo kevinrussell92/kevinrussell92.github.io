@@ -7,9 +7,11 @@
 <html>
 	<head>
 		<!-- temp redirect -->
-		<meta http-equiv="refresh" content="0; url=Construction.html" />
+		<meta http-equiv="refresh" content="0; url=/Construction.html" />
 		<script>
-			window.location.replace("Construction.html");
+			if (window.location.pathname !== "/Construction.html") {
+				window.location.replace("/Construction.html");
+			}
 		</script>
 <!-- temp redirect -->
 
